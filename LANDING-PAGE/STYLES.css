@@ -1,0 +1,110 @@
+body{
+  background-color: rgb(227, 220, 125);
+}
+.h1{
+  font-size: 50px;
+  display: inline;
+  color: rgb(215, 197, 0);
+  background-color: brown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu
+{
+  float: right;
+  margin-top: 40px;
+  margin-right: 50px;
+  font-size: 25px;
+}
+a{
+text-decoration: none;
+}
+
+b{
+text-align: center;
+}
+.tag {
+  width: 50%;
+  float: right;
+}
+.tag p {
+  text-align: justify;
+  border:5px solid black ;
+  border-radius: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(255, 0, 13);
+  font-size:40px;
+  margin-top:100px;
+  margin-right:90px;
+  margin-left:60px;
+  width: 80%;
+  padding: 30px;
+}
+.tag p:hover{
+  background-color: rgb(0, 168, 252);
+  color: rgb(255, 255, 255);
+}
+.pic     {
+  margin-top: 50px;
+  margin-left:150px;
+  border: 1px dotted black;
+  width:20%;
+}
+.section {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.product:hover{
+  background-color: rgb(0, 255, 21);
+}
+.item {
+  float: left;
+  border: 10px rgb(0, 255, 123);
+  border-style:groove;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: 200px;
+  width: 200px;
+}
+
+.item:hover{
+  background-color: rgb(196, 178, 255);
+  color: rgb(255, 0, 0);
+}
+.item img {
+  width: 170px;
+  height: 170px;
+  border: outset brown;
+  align-items: center;
+  margin-top: 5px;
+}
+.item p {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  font-size: 35px;
+}
+.row {
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+}
+.btn{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  border-color: blue;
+  border-radius: .5rem;
+  background: rgb(255, 255, 255);
+  padding: 1rem 3rem;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+footer{
+  font-size: 25px;
+  color: rgb(115, 60, 0);
+  margin-top: 1000px;
+  margin-bottom: 100px;
+}
